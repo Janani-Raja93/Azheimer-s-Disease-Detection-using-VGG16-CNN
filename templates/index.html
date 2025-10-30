@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alzheimer's Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1> Alzheimer disease detection and Classification </h1>
+        <p>Welcome..! Click below to upload a brain scan and detect possible Alzheimer's disease.</p><br/>
+        <a href="{{ url_for('predict') }}" class="button">Start Prediction</a>
+    </div>
+</body>
+</html>
